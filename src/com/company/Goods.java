@@ -55,7 +55,9 @@ public class Goods {
     }
     @Override
     public String toString() {
-        return Id + '\t' + Name + '\t' + Price + '\t' +category + '\t' + purchaseDate + '\t' + sellDate;
+        return Id + '\t' + Name + '\t'
+                + Price + '\t' +category + '\t'
+                + purchaseDate + '\t' + sellDate;
     }
 }
 
