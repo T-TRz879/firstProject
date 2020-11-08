@@ -17,7 +17,6 @@ class Goods {
         this.category = category;
         this.purchaseDate = purchaseDate;
         this.sellDate = sellDate;
-
     }
     public int getId() {
         return Id;
